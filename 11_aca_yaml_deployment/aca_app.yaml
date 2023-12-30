@@ -6,7 +6,7 @@ tags:
   env: production
 properties:
   # replace with your managed environment id
-  managedEnvironmentId: /subscriptions/82f6d75e-85f4-434a-ab74-5dddd9fa8910/resourceGroups/rg-aca/providers/Microsoft.App/managedEnvironments/aca-environment
+  managedEnvironmentId: /subscriptions/91a0451c-d2e4-4c7c-9171-c7b7ab3d500a/resourceGroups/container-apps/providers/Microsoft.App/managedEnvironments/container-environment1
   configuration:
     activeRevisionsMode: Multiple
     secrets:

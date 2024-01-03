@@ -8,9 +8,9 @@ Through a series of Azure CLI commands, you will:
 4. Create a new Container Apps using a sample container image from MCR registry
 
 ```powershell
-$RESOURCE_GROUP="rg-container-apps-demo"
-$LOCATION="westeurope"
-$CONTAINERAPPS_ENVIRONMENT="aca-environment"
+$RESOURCE_GROUP="rg-container-apps-demo-cli"
+$LOCATION="eastus"
+$CONTAINERAPPS_ENVIRONMENT="aca-environment-cli"
 
 az group create `
   --name $RESOURCE_GROUP `

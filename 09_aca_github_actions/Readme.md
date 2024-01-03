@@ -8,7 +8,7 @@ Create a Container Apps
 
 ```powershell
 $RESOURCE_GROUP="rg-containerapps-github-actions"
-$LOCATION="westeurope"
+$LOCATION="eastus"
 $CONTAINERAPPS_ENVIRONMENT="aca-environment"
 $CONTAINERAPPS_APP="album-backend-api"
 

@@ -59,6 +59,7 @@ jobs:
       with:
         registryUrl: ghcr.io
         imageToDeploy: ghcr.io/${{ env.IMAGE_NAME }}:${{ github.run_number }}
+        acrName: youtubesampleregistry
         targetPort: 3500
         ingress: external
         containerAppName: ${{ env.CONTAINERAPPS_APP }}

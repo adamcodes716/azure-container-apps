@@ -57,9 +57,9 @@ jobs:
     - name: Build and deploy Container App
       uses: azure/container-apps-deploy-action@v1
       with:
-        registryUrl: ghcr.io
+        # registryUrl: ghcr.io
         imageToDeploy: ghcr.io/${{ env.IMAGE_NAME }}:${{ github.run_number }}
-        # acrName: youtubesampleregistry
+        acrName: youtubesampleregistry
         targetPort: 3500
         ingress: external
         containerAppName: ${{ env.CONTAINERAPPS_APP }}
